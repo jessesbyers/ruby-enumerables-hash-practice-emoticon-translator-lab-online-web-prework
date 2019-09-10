@@ -27,7 +27,7 @@ def get_english_meaning(file, emoticon)
 
   if translator_hash[:get_meaning].has_value?(emoticon)
     translator_hash[:get_meaning]
-    #binding.pry
+    binding.pry
 #    else
 #      message
     end
