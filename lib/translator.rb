@@ -24,4 +24,5 @@ end
 
 def get_english_meaning(file, emoticon)
   translator_hash = load_library('./lib/emoticons.yml')
+  #binding.pry
 end
