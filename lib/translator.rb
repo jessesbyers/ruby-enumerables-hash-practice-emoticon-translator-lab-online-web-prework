@@ -31,5 +31,5 @@ def get_english_meaning(file, emoticon)
 #    else
 #      message
     end
-  
+
 end
