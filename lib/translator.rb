@@ -13,21 +13,14 @@ def load_library(file)
 
 
 def get_japanese_emoticon (file, emoticon)
-  #need to fingure out how to identify the first key
   message = "Sorry, that emoticon was not found"
   translator_hash = load_library('./lib/emoticons.yml')
     if translator_hash[:get_emoticon].has_key?(emoticon)
       translator_hash[:get_emoticon][emoticon]
-  #       binding.pry
-
       else
         message
       end
-
 end
 
-
-
-
-def get_english_meaning
+def get_english_meaning(file, emoticon)
 end
