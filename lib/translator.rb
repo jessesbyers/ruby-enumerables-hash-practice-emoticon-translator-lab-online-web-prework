@@ -23,4 +23,5 @@ def get_japanese_emoticon (file, emoticon)
 end
 
 def get_english_meaning(file, emoticon)
+  translator_hash = load_library('./lib/emoticons.yml')
 end
