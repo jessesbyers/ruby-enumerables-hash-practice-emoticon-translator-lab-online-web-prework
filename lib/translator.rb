@@ -25,8 +25,8 @@ end
 def get_english_meaning(file, emoticon)
   translator_hash = load_library('./lib/emoticons.yml')
 
-  if translator_hash[:get_meaning].has_key?(emoticon)
-    translator_hash[:get_emoticon][emoticon]
+  if translator_hash[:get_meaning].has_value?(emoticon)
+    translator_hash[:get_meaning]
     #binding.pry
 #    else
 #      message
